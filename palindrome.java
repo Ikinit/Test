@@ -7,8 +7,8 @@ class Palindrome {
             if (str.charAt(left) != str.charAt(right)) {
                 return false;
             }
-            left++;
-            right--;
+            left++;//left
+            right--;//right
         }
         return true;
     }
